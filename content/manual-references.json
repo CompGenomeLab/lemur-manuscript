@@ -18,5 +18,37 @@
       "family": "Himmelstein"
     }
   ]
+},
+{
+  "id": "url:https://github.com/compGenomeLab/lemurRepair",
+  "type": "webpage",
+  "URL": "https://github.com/compGenomeLab/lemurRepair",
+  "title": "compGenomeLab/lemurRepair GitHub repository",
+  "container-title": "GitHub",
+  "issued": {
+    "date-parts": [
+      [
+        2019
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Veysel Ogulcan",
+      "family": "Kaya"
+    },
+    {
+      "given": "Umit",
+      "family": "Akkose"
+    },
+    {
+      "given": "Zeynep",
+      "family": "Karagoz"
+    },
+    {
+      "given": "Ogun",
+      "family": "Adebali"
+    }
+  ]
 }
 ]
