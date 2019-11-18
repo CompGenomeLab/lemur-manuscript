@@ -9,6 +9,44 @@ keywords:
 lang: en-US
 author_info:
   -
+    name: Laura Lindsey-Boltz
+    initials: AS
+    orcid: 0000-0000-0000-0000
+    email: lindsey@med.unc.edu
+    affiliations:
+      - Department of Biochemistry and Biophysics, School of Medicine, University of North Carolina at Chapel Hill
+  -
+    github: vogulcan
+    name: Veysel Ogulcan Kaya
+    initials: VOK
+    orcid: 0000-0000-0000-0000
+    email: vogulcan@sabanciuniv.edu
+    affiliations:
+      - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University
+  -
+    github: umieat
+    name: Umit Akkose
+    initials: UA
+    orcid: 0000-0000-0000-0000
+    email: umitakkose@sabanciuniv.edu
+    affiliations:
+      - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University
+  -
+    github: zeynepkaragoz
+    name: Zeynep Karagoz
+    initials: ZK
+    orcid: 0000-0000-0000-0000
+    email: zeynepkgoz@gmail.com
+    affiliations:
+      - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University
+  -
+    name: Aziz Sancar
+    initials: AS
+    orcid: 0000-0000-0000-0000
+    email: aziz_sancar@med.unc.edu
+    affiliations:
+      - Department of Biochemistry and Biophysics, School of Medicine, University of North Carolina at Chapel Hill
+  -
     github: adebali
     name: Ogun Adebali
     initials: OA
@@ -17,4 +55,5 @@ author_info:
     email: ogun.adebali@sabanciuniv.edu
     affiliations:
       - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University
-    funders: Grant XXXXXXXX
+    funders: EMBO Installation Grant funded by TUBITAK
+
