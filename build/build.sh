@@ -20,7 +20,7 @@ manubot process \
   --log-level=INFO
 
 # pandoc settings
-CSL_PATH=build/assets/style.csl
+CSL_PATH=build/assets/elife.csl
 BIBLIOGRAPHY_PATH=output/references.json
 INPUT_PATH=output/manuscript.md
 
