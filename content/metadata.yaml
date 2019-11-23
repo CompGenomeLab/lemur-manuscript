@@ -15,6 +15,7 @@ author_info:
     email: lindsey@med.unc.edu
     affiliations:
       - Department of Biochemistry and Biophysics, School of Medicine, University of North Carolina at Chapel Hill
+    symbol_str: "#"
   -
     github: vogulcan
     name: Veysel Ogulcan Kaya
@@ -23,6 +24,7 @@ author_info:
     email: vogulcan@sabanciuniv.edu
     affiliations:
       - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University
+    symbol_str: "#"
   -
     github: umieat
     name: Umit Akkose
@@ -31,6 +33,7 @@ author_info:
     email: umitakkose@sabanciuniv.edu
     affiliations:
       - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University
+    symbol_str: "#"
   -
     github: zeynepkaragoz
     name: Zeynep Karagoz
@@ -56,4 +59,5 @@ author_info:
     affiliations:
       - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University
     funders: EMBO Installation Grant funded by TUBITAK
+    symbol_str: "*"
 
