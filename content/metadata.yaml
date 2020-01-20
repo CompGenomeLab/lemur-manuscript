@@ -1,5 +1,6 @@
 ---
-title: "Comparative analysis of genome-wide nucleotide excision repair maps between human and lemur suggests conserved profiles"
+title: "High conservation of genome-wide UV repair profiles between primates"
+running_title: "Conserved repair profiles between primates"
 keywords:
   - DNA repair
   - Nucleotide excision repair
@@ -7,7 +8,7 @@ keywords:
   - Grey Mouse Lemur
   - Fibroblasts
 lang: en-US
-author_info:
+authors:
   -
     name: Laura Lindsey-Boltz
     initials: AS
@@ -43,12 +44,42 @@ author_info:
     affiliations:
       - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University
   -
+    name: Adam Brown
+    initials: AB
+    orcid: 0000-0000-0000-0000
+    email: 
+    affiliations:
+      - Department of Biology, Duke University
+  -
+    name: Beth Sullivan
+    initials: BS
+    orcid: 0000-0000-0000-0000
+    email: anne.yoder@duke.edu
+    affiliations:
+      - Department of Biology, Duke University
+  -
+    name: Peter Larsen
+    initials: PL
+    orcid: 0000-0000-0000-0000
+    email: anne.yoder@duke.edu
+    affiliations:
+      - Department of Biology, Duke University
+  -
+    name: Anne Yoder
+    initials: AY
+    orcid: 0000-0002-1781-9552
+    email: anne.yoder@duke.edu
+    affiliations:
+      - Department of Biology, Duke University
+    funders: National Science Foundation; Duke University
+  -
     name: Aziz Sancar
     initials: AS
     orcid: 0000-0000-0000-0000
     email: aziz_sancar@med.unc.edu
     affiliations:
       - Department of Biochemistry and Biophysics, School of Medicine, University of North Carolina at Chapel Hill
+    funders: National Institutes of Health
   -
     github: adebali
     name: Ogun Adebali
@@ -58,6 +89,6 @@ author_info:
     email: ogun.adebali@sabanciuniv.edu
     affiliations:
       - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University
-    funders: EMBO Installation Grant funded by TUBITAK
+    funders: EMBO Installation Grant funded by TUBITAK; Sabanci University
     symbol_str: "*"
 
