@@ -11,8 +11,8 @@ lang: en-US
 authors:
   -
     name: Laura Lindsey-Boltz
-    initials: AS
-    orcid: 0000-0000-0000-0000
+    initials: LL
+    orcid: 0000-0001-6493-8194
     email: lindsey@med.unc.edu
     affiliations:
       - Department of Biochemistry and Biophysics, School of Medicine, University of North Carolina at Chapel Hill
@@ -44,24 +44,24 @@ authors:
     affiliations:
       - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University
   -
-    name: Adam Brown
-    initials: AB
-    orcid: 0000-0000-0000-0000
-    email: 
+    name: Adam D. Brown
+    initials: ADB
+    orcid: 0000-0002-9122-4960
+    email: brownad2012@gmail.com
     affiliations:
-      - Department of Biology, Duke University
+      - Department of Pharmacology and Cancer Biology, Duke University
   -
-    name: Beth Sullivan
-    initials: BS
-    orcid: 0000-0000-0000-0000
-    email: anne.yoder@duke.edu
+    name: Beth A. Sullivan
+    initials: BAS
+    orcid: 0000-0001-5216-4603
+    email: beth.sullivan@duke.edu
     affiliations:
-      - Department of Biology, Duke University
+      - Department of Molecular Genetics and Microbiology, Duke University School of Medicine
   -
-    name: Peter Larsen
-    initials: PL
-    orcid: 0000-0000-0000-0000
-    email: anne.yoder@duke.edu
+    name: Peter A. Larsen
+    initials: PAL
+    orcid: 0000-0002-3634-3625
+    email: plarsen@umn.edu
     affiliations:
       - Department of Biology, Duke University
   -
@@ -75,7 +75,7 @@ authors:
   -
     name: Aziz Sancar
     initials: AS
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0001-6469-4900
     email: aziz_sancar@med.unc.edu
     affiliations:
       - Department of Biochemistry and Biophysics, School of Medicine, University of North Carolina at Chapel Hill
