@@ -108,8 +108,13 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_EXISTS" ]; then
   rm -rf output/images
 fi
 
+# bash build/pagenum.sh output/manuscript.pdf
+
+# pspdftool 'number(x=-1pt,y=-1pt,start=1,size=10)' output/manuscript.pdf output/manuscript_numbered.pdf
+
 # Create DOCX output (if BUILD_DOCX environment variable equals "true")
 if [ "${BUILD_DOCX:-}" = "true" ]; then
+# if [ "true" ]; then
   echo >&2 "Exporting Word Docx manuscript"
   pandoc --verbose \
     --from=markdown \
