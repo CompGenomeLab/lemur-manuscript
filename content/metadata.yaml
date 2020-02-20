@@ -10,20 +10,20 @@ keywords:
 lang: en-US
 authors:
   -
-    github: vogulcan
-    name: Veysel Ogulcan Kaya
-    initials: VOK
-    orcid: 0000-0002-3447-0735
-    email: vogulcan@sabanciuniv.edu
-    affiliations:
-      - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, 34956, Turkey
-    symbol_str: "#"
-  -
     github: umieat
     name: Umit Akkose
     initials: UA
     orcid: 0000-0002-9731-3702
     email: umitakkose@sabanciuniv.edu
+    affiliations:
+      - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, 34956, Turkey
+    symbol_str: "#"
+  -
+    github: vogulcan
+    name: Veysel Ogulcan Kaya
+    initials: VOK
+    orcid: 0000-0002-3447-0735
+    email: vogulcan@sabanciuniv.edu
     affiliations:
       - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, 34956, Turkey
     symbol_str: "#"
