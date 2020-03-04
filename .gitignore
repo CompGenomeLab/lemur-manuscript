@@ -38,3 +38,7 @@ Thumbs.db
 
 ## Text Editors
 .vscode
+
+## Ignore fig4.ai
+
+content/images/fig4.ai
