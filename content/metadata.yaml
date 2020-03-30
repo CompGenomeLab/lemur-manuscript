@@ -64,6 +64,8 @@ authors:
     email: plarsen@umn.edu
     affiliations:
       - Department of Biology, Duke University, Durham, North Carolina, 27708, USA
+    symbol_str: "†"
+
   -
     name: Anne D. Yoder
     initials: ADY
