@@ -108,7 +108,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_EXISTS" ]; then
   # rm -rf output/images
 fi
 
-# bash build/pagenum.sh output/manuscript.pdf
+bash build/pagenum.sh output/manuscript.pdf
 
 # pspdftool 'number(x=-1pt,y=-1pt,start=1,size=10)' output/manuscript.pdf output/manuscript_numbered.pdf
 
