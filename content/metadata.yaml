@@ -51,13 +51,6 @@ authors:
     affiliations:
       - Department of Pharmacology and Cancer Biology, Duke University, Durham, North Carolina, 27708, USA
   -
-    name: Beth A. Sullivan
-    initials: BAS
-    orcid: 0000-0001-5216-4603
-    email: beth.sullivan@duke.edu
-    affiliations:
-      - Department of Molecular Genetics and Microbiology, Duke University School of Medicine, Durham, North Carolina, 27708, USA
-  -
     name: Peter A. Larsen
     initials: PAL
     orcid: 0000-0002-3634-3625
@@ -93,4 +86,3 @@ authors:
       - Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, 34956, Turkey
     funders: EMBO Installation Grant funded by TUBITAK; Sabanci University
     symbol_str: "*"
-
