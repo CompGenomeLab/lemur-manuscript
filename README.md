@@ -1,23 +1,23 @@
 # Comparative analyses of two primate species diverged by more than 60 million years show different rates but similar distribution of genome-wide UV repair events
 
 
-[![ORCID icon](orcid.svg)](https://orcid.org/0000-0002-9731-3702)
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-9731-3702)
 Umit Akkose<sup>1,#</sup>,
-[![ORCID icon](orcid.svg)](https://orcid.org/0000-0002-3447-0735)
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-3447-0735)
 Veysel Ogulcan Kaya<sup>1,#</sup>,
-[![ORCID icon](orcid.svg)](https://orcid.org/0000-0001-6493-8194)
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0001-6493-8194)
 Laura Lindsey-Boltz<sup>2,#</sup>,
-[![ORCID icon](orcid.svg)](https://orcid.org/0000-0002-7627-9218)
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-7627-9218)
 Zeynep Karagoz<sup>1</sup>,
-[![ORCID icon](orcid.svg)](https://orcid.org/0000-0002-9122-4960)
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-9122-4960)
 Adam D. Brown<sup>3</sup>,
-[![ORCID icon](orcid.svg)](https://orcid.org/0000-0002-3634-3625)
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-3634-3625)
 Peter A. Larsen<sup>4,†</sup>,
-[![ORCID icon](orcid.svg)](https://orcid.org/0000-0002-1781-9552)
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-1781-9552)
 Anne D. Yoder<sup>4</sup>,
-[![ORCID icon](orcid.svg)](https://orcid.org/0000-0001-6469-4900)
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0001-6469-4900)
 Aziz Sancar<sup>2</sup>,
-[![ORCID icon](orcid.svg)](https://orcid.org/0000-0001-9213-4070)
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0001-9213-4070)
 Ogun Adebali<sup>1,*</sup>
 
 
