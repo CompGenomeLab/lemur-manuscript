@@ -20,7 +20,6 @@ Aziz Sancar<sup>2</sup>,
 [![ORCID icon](orcid.svg)](https://orcid.org/0000-0001-9213-4070)
 Ogun Adebali<sup>1,*</sup>
 
-<small>
 
 1. Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, 34956, Turkey
 2. Department of Biochemistry and Biophysics, School of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, 27599, USA
@@ -31,19 +30,12 @@ Ogun Adebali<sup>1,*</sup>
 <br>
 <sup>#</sup> These authors contributed equally<br>
 <sup>*</sup> To whom correspondence should be addressed: oadebali@sabanciuniv.edu
-</small>
 
-<small>
 **Running title**: Nucleotide excision repair profiles in primates
-</small>
 
-<small>
 **Keywords:** Nucleotide excision repair, UV damage, XR-seq, Mouse Lemur, (6-4)PP, CPD, Primate
-</small>
 
 ## Abstract 
-
-<!-- 250 words -->
 
 Nucleotide excision repair is the primary DNA repair mechanism that removes bulky DNA adducts such as UV-induced pyrimidine dimers. 
 Correspondingly, genome-wide mapping of nucleotide excision repair with eXcision Repair sequencing (XR-seq), provides comprehensive profiling of DNA damage repair. 
