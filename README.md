@@ -1,122 +1,56 @@
-# Automated scholarly manuscripts on GitHub
+# Comparative analyses of two primate species diverged by more than 60 million years show different rates but similar distribution of genome-wide UV repair events
 
-<!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://manubot.github.io/rootstock/)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://manubot.github.io/rootstock/manuscript.pdf)
-[![Build Status](https://travis-ci.com/manubot/rootstock.svg?branch=master)](https://travis-ci.com/manubot/rootstock)
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-9731-3702)
+Umit Akkose<sup>1,#</sup>,
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-3447-0735)
+Veysel Ogulcan Kaya<sup>1,#</sup>,
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0001-6493-8194)
+Laura Lindsey-Boltz<sup>2,#</sup>,
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-7627-9218)
+Zeynep Karagoz<sup>1</sup>,
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-9122-4960)
+Adam D. Brown<sup>3</sup>,
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-3634-3625)
+Peter A. Larsen<sup>4,†</sup>,
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0002-1781-9552)
+Anne D. Yoder<sup>4</sup>,
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0001-6469-4900)
+Aziz Sancar<sup>2</sup>,
+[![ORCID icon](content/images/orcid.svg)](https://orcid.org/0000-0001-9213-4070)
+Ogun Adebali<sup>1,*</sup>
 
-## Manuscript description
 
-<!-- usage note: edit this section. -->
+1. Molecular Biology, Genetics & Bioengineering Program, Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, 34956, Turkey
+2. Department of Biochemistry and Biophysics, School of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, 27599, USA
+3. Department of Pharmacology and Cancer Biology, Duke University, Durham, North Carolina, 27708, USA
+4. Department of Biology, Duke University, Durham, North Carolina, 27708, USA
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+<sup>†</sup> Current Address: Department of Veterinary and Biomedical Sciences, University of Minnesota, St. Paul, Minnesota, 55112, USA <br>
+<br>
+<sup>#</sup> These authors contributed equally<br>
+<sup>*</sup> To whom correspondence should be addressed: oadebali@sabanciuniv.edu
 
-## Manubot
+**Running title**: Nucleotide excision repair profiles in primates
 
-<!-- usage note: do not edit this section -->
+**Keywords:** Nucleotide excision repair, UV damage, XR-seq, Mouse Lemur, (6-4)PP, CPD, Primate
 
-Manubot is a system for writing scholarly manuscripts via GitHub.
-Manubot automates citations and references, versions manuscripts using git, and enables collaborative writing via GitHub.
-An [overview manuscript](https://greenelab.github.io/meta-review/ "Open collaborative writing with Manubot") presents the benefits of collaborative writing with Manubot and its unique features.
-The [rootstock repository](https://git.io/fhQH1) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
-See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
+## Abstract 
 
-Please open [an issue](https://git.io/fhQHM) for questions related to Manubot usage, bug reports, or general inquiries.
+Nucleotide excision repair is the primary DNA repair mechanism that removes bulky DNA adducts such as UV-induced pyrimidine dimers. 
+Correspondingly, genome-wide mapping of nucleotide excision repair with eXcision Repair sequencing (XR-seq), provides comprehensive profiling of DNA damage repair. 
+A number of XR-seq experiments at a variety of conditions for different damage types revealed heterogenous repair in the human genome.
+Although human repair profiles were extensively studied, how repair maps vary between primates is yet to be investigated.
+Here, we characterized the genome-wide UV-induced damage repair in gray mouse lemur,*Microcebus murinus*, in comparison to human.
+Mouse lemurs are strictly nocturnal, are the world's smallest living primates, and last shared a common ancestor with humans at least 60 million years ago. 
+We derived fibroblast cell lines from mouse lemur, exposed them to UV irradiation. 
+The following repair events were captured genome-wide through the XR-seq protocol. 
+Mouse lemur repair profiles were analyzed in comparison to the equivalent human fibroblast datasets.
+We found that overall UV sensitivity, repair efficiency, and transcription-coupled repair levels differ between the two primates.
+Despite this, comparative analysis of human and mouse lemur fibroblasts revealed that genome-wide repair profiles of the homologous regions are highly correlated. 
+This correlation is stronger for the highly expressed genes.
+With the inclusion of an additional XR-seq sample derived from another human cell line in the analysis, we found that fibroblasts of the two primates repair UV-induced DNA lesions in a more similar pattern than two distinct human cell lines do.
+Our results suggest that mouse lemurs and humans, and possibly primates in general, share a homologous repair mechanism as well as genomic variance distribution, albeit with their variable repair efficiency.
+This result also emphasizes the deep homologies of individual tissue types across the eukaryotic phylogeny.
 
-### Repository directories & files
-
-The directories are as follows:
-
-+ [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
-  See [`USAGE.md`](USAGE.md) for more information.
-+ [`output`](output) contains the outputs (generated files) from Manubot including the resulting manuscripts.
-  You should not edit these files manually, because they will get overwritten.
-+ [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
-+ [`build`](build) contains commands and tools for building the manuscript.
-+ [`ci`](ci) contains files necessary for deployment via continuous integration.
-  For the CI configuration, see [`.travis.yml`](.travis.yml).
-
-### Local execution
-
-The easiest way to run Manubot is to use [continuous integration](#continuous-integration) to rebuild the manuscript when the content changes.
-If you want to build a Manubot manuscript locally, install the [conda](https://conda.io) environment as described in [`build`](build).
-Then, you can build the manuscript on POSIX systems by running the following commands from this root directory.
-
-```sh
-# Activate the manubot conda environment (assumes conda version >= 4.4)
-conda activate manubot
-
-# Build the manuscript, saving outputs to the output directory
-bash build/build.sh
-
-# At this point, the HTML & PDF outputs will have been created. The remaining
-# commands are for serving the webpage to view the HTML manuscript locally.
-# This is required to view local images in the HTML output.
-
-# Configure the webpage directory
-manubot webpage
-
-# You can now open the manuscript webpage/index.html in a web browser.
-# Alternatively, open a local webserver at http://localhost:8000/ with the
-# following commands.
-cd webpage
-python -m http.server
-```
-
-Sometimes it's helpful to monitor the content directory and automatically rebuild the manuscript when a change is detected.
-The following command, while running, will trigger both the `build.sh` script and `manubot webpage` command upon content changes:
-
-```sh
-bash build/autobuild.sh
-```
-
-### Continuous Integration
-
-[![Build Status](https://travis-ci.com/manubot/rootstock.svg?branch=master)](https://travis-ci.com/manubot/rootstock)
-
-Whenever a pull request is opened, Travis CI will test whether the changes break the build process to generate a formatted manuscript.
-The build process aims to detect common errors, such as invalid citations.
-If your pull request build fails, see the Travis CI logs for the cause of failure and revise your pull request accordingly.
-
-When a commit to the `master` branch occurs (for example, when a pull request is merged), Travis CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/manubot/rootstock/tree/gh-pages) and [`output`](https://github.com/manubot/rootstock/tree/output) branches.
-The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
-
-+ **HTML manuscript** at https://manubot.github.io/rootstock/
-+ **PDF manuscript** at https://manubot.github.io/rootstock/manuscript.pdf
-
-For continuous integration configuration details, see [`.travis.yml`](.travis.yml).
-
-## License
-
-<!--
-usage note: edit this section to change the license of your manuscript or source code changes to this repository.
-We encourage users to openly license their manuscripts, which is the default as specified below.
--->
-
-[![License: CC BY 4.0](https://img.shields.io/badge/License%20All-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
-[![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-Except when noted otherwise, the entirety of this repository is licensed under a CC BY 4.0 License ([`LICENSE.md`](LICENSE.md)), which allows reuse with attribution.
-Please attribute by linking to https://github.com/manubot/rootstock.
-
-Since CC BY is not ideal for code and data, certain repository components are also released under the CC0 1.0 public domain dedication ([`LICENSE-CC0.md`](LICENSE-CC0.md)).
-All files matched by the following glob patterns are dual licensed under CC BY 4.0 and CC0 1.0:
-
-+ `*.sh`
-+ `*.py`
-+ `*.yml` / `*.yaml`
-+ `*.json`
-+ `*.bib`
-+ `*.tsv`
-+ `.gitignore`
-
-All other files are only available under CC BY 4.0, including:
-
-+ `*.md`
-+ `*.html`
-+ `*.pdf`
-+ `*.docx`
-
-Please open [an issue](https://github.com/manubot/rootstock/issues) for any question related to licensing.
+[Go to manuscript]('https://compgenomelab.github.io/lemur-manuscript/webpage')
