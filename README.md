@@ -53,4 +53,4 @@ With the inclusion of an additional XR-seq sample derived from another human cel
 Our results suggest that mouse lemurs and humans, and possibly primates in general, share a homologous repair mechanism as well as genomic variance distribution, albeit with their variable repair efficiency.
 This result also emphasizes the deep homologies of individual tissue types across the eukaryotic phylogeny.
 
-[Go to manuscript](https://compgenomelab.github.io/lemur-manuscript/webpage)
+[Go to manuscript](//compgenomelab.github.io/lemur-manuscript/webpage)
